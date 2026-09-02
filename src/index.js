@@ -1,3 +1,12 @@
 ﻿export { calculateHealthScore } from './health.js';
 export { scanSecurityRisks } from './scanner.js';
 export { calculateCommitVelocity } from './velocity.js';
+export { loadConfig } from './config.js';
+export { formatMarkdownReport } from './formatters/markdown.js';
+export { formatHtmlReport } from './formatters/html.js';
+export { formatCsvMetrics } from './formatters/csv.js';
+export { validateLicense } from './rules/license-validator.js';
+export { checkGitignore } from './rules/gitignore-checker.js';
+export { analyzeReadme } from './rules/readme-analyzer.js';
+export { checkSecurityPolicy } from './rules/security-policy.js';
+export { checkCiWorkflow } from './rules/ci-checker.js';
